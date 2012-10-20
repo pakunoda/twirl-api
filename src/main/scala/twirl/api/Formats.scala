@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package org.tomdz.twirl.api
+package twirl.api
 
 /**
  * Generic type representing content to be sent over an HTTP response.

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package org.tomdz.twirl.api
+package twirl.api
 
 case class BaseScalaTemplate[T <: Appendable[T], F <: Format[T]](format: F) {
 
