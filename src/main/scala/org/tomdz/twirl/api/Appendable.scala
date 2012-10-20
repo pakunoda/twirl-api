@@ -13,10 +13,12 @@
  * limitations under the License.
  */
 
-package org.tomdz.maven.twirl.api
+package org.tomdz.twirl.api
 
-trait Format[T <: Appendable[T]] {
-  def raw(text: String): T
+trait Appendable[T] {
+  def +(other: T): T
 
-  def escape(text: String): T
+  override def equals(x: Any): Boolean = super.equals(x)
+
+  override def hashCode() = super.hashCode()
 }

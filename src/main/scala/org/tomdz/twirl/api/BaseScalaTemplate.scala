@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package org.tomdz.maven.twirl.api
+package org.tomdz.twirl.api
 
 case class BaseScalaTemplate[T <: Appendable[T], F <: Format[T]](format: F) {
 

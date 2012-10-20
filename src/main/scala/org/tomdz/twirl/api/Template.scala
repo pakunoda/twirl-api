@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package org.tomdz.maven.twirl.api
+package org.tomdz.twirl.api
 
 trait Template0[Result] {
   def render(): Result
